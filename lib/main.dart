@@ -39,6 +39,8 @@ class AppNovoEstado extends State<AppNovo> {
           child: Column(
             children: [ 
               Container( color: Colors.grey,
+                width: double.infinity,
+                height: 50,
                 child: Center(
                   child: Text(
                     "DESDE 1921 *** UM JORNAL A SERVIÇO DA DEMOCRACIA",
@@ -51,7 +53,7 @@ class AppNovoEstado extends State<AppNovo> {
               ),
               Container(
                 width: double.infinity,
-                height: 50,
+                height: 60,
                 color: Colors.grey,
                 child: Text(
                   "Dólar cai abaixo de Reais 5 com mudança de tom entre Rússia e Ucrânia",
@@ -63,7 +65,7 @@ class AppNovoEstado extends State<AppNovo> {
               ),
               Container(
                 width: double.infinity,
-                height: 335,
+                height: 370,
                 color: Colors.grey,
                 child: Image(
                   image: AssetImage('assets/imag01.jpg'), width: MediaQuery.of(context).size.width,
@@ -71,7 +73,7 @@ class AppNovoEstado extends State<AppNovo> {
               ),
               Container(
                 width: double.infinity,
-                height: 50,
+                height: 60,
                 color: Colors.grey,
                 child: Text(
                   "Governo de SP libera retorno de 100% do público aos estádios e sem máscara",
@@ -82,8 +84,9 @@ class AppNovoEstado extends State<AppNovo> {
                 ),
               ),
               Container(
-                width: 200,
-                height: 200,
+                width: double.infinity,
+                height: 370,
+                color: Colors.grey,
                 child: Image(
                   image: AssetImage('assets/imag02.jpg'),
                 ),
